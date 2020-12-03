@@ -1,1 +1,13 @@
+.large-only {
+  @media (max-width: 494px) {
+    display: none;
+  }
+}
 
+.more {
+  display: none;
+
+  @media (max-width: 494px) {
+    display: block;
+  }
+}

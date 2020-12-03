@@ -1,20 +1,38 @@
 <ion-tabs>
-
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="tab1">
-      <ion-icon name="triangle"></ion-icon>
-      <ion-label>Tab 1</ion-label>
+      <ion-icon name="triangle-outline"></ion-icon>
+      <ion-label>Tab Title 1</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab2">
-      <ion-icon name="ellipse"></ion-icon>
-      <ion-label>Tab 2</ion-label>
+      <ion-icon name="ellipse-outline"></ion-icon>
+      <ion-label>Tab Title 2</ion-label>
     </ion-tab-button>
 
     <ion-tab-button tab="tab3">
-      <ion-icon name="square"></ion-icon>
-      <ion-label>Tab 3</ion-label>
+      <ion-icon name="square-outline"></ion-icon>
+      <ion-label>Tab Title 3</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab4" class="large-only">
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-label>Tab Title 4</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab5" class="large-only">
+      <ion-icon name="alert-circle-outline"></ion-icon>
+      <ion-label>Tab Title 5</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab6" class="large-only">
+      <ion-icon name="basketball-outline"></ion-icon>
+      <ion-label>Tab Title 6</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button class="more" (click)="more()">
+      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+      <ion-label>More</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
-
 </ion-tabs>
